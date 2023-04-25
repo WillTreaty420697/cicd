@@ -1,5 +1,5 @@
 # ERAU CS 399 
-## CI/CD
+## CI/CD - Edited
 ### Status ..
 [![run-tests](../../actions/workflows/python-test.yml/badge.svg)](../../actions/workflows/python-test.yml)
 [![docker-publish](../../actions/workflows/docker-publish.yml/badge.svg)](../../actions/workflows/docker-publish.yml)
