@@ -15,7 +15,7 @@ def get_health() -> bool:
     with urllib.request.urlopen(health_url) as response:
         return response.status == 200
 
-def remote_is_odd(number: int) -> bool:
+def remote_is_odd(number: int, output: str) -> bool:
     url = f"{service_url}{number}"
     req = urllib.request.Request(url, headers={'Content-Type': 'application/json'})
     with urllib.request.urlopen(req) as response:
